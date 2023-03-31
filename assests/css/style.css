@@ -1,5 +1,4 @@
 * {
-    background-color: #ffffff;
     font-family: 'DejaVu Sans', sans-serif;
     font-family: 'DejaVu Sans Condensed', sans-serif;
     margin: 0;
@@ -31,20 +30,19 @@ header {
 header nav .nav {
     display: flex;
 }
-
+ul li{
+    font-family: system-ui;
+}
 .nav-bar ul {
     display: flex;
     list-style: none;
     width: 50%;
     justify-content: space-between;
-    /* margin: 1%; */
+    font-weight: 500;
+    font-style: normal;
     font-size: 1rem;
-    /* font-weight: 550; */
-    margin: 3% 0%;
-    font-family: 'DejaVu Sans', sans-serif;
+    margin: 1.6rem 3%;
 }
-
-
 .logo span {
     /* margin: 1%; */
     font-size: 1.9rem;
@@ -235,7 +233,9 @@ img#smile {
     left: 49%;
     top: -37%;
 }
-
+.company-about {
+    margin-top: -5%;
+}
 /* **************section*************** */
 .companies {
     /* border: 1px solid; */
@@ -330,12 +330,12 @@ img#smile {
 
 .commitment-content-items a,.contect-items>a  {
     margin-left: 4%;
-    font-size: bold;
     font-weight: 700;
+    color: #3461ff;
 }
 
 .commitment-content-items span,.contect-items>span  {
-    color: blue;
+    color: #3461ff;
     font-size: 1.5rem;
     width: -15%;
 }
@@ -416,6 +416,7 @@ img#smile {
 
 .product-work {
     /* border: 1px solid; */
+    text-align: center;
 }
 
 .product-items {
@@ -581,6 +582,9 @@ img#smile {
     margin: 11% auto;
     
 }
+.container .web-img:hover{
+    transform: scale(1.05);
+}
 /* ***********section*********** */
 .client-item{
     /* border: 1px solid; */
@@ -612,7 +616,7 @@ img#smile {
     color: gray;
     margin: 1% 1%;
 }
-#arr{
+.arrow:hover{
     background-color: #3561fe;
     color: white;
 }
@@ -632,15 +636,15 @@ img#smile {
 }
 .details{
     display: flex;
-    background: #f5f8fe;
+    background: transparent;
 }
 .name>p{
     font-size: 1.1rem;
-    background: #f5f8fe;
+    background: transparent;
     /* font-weight: 600; */
 }
 .name>h2,.details>img{
-    background-color: #f5f8fe;
+    background-color: transparent;
 }
 .name {
     margin: 5%;
@@ -653,10 +657,17 @@ img#smile {
     /* color: white; */
     background: #f5f8fe;
 }
-.col-item,.name .col-item,.details .col-item,.details-content .col-item{
+.client-details p{
+    background-color:transparent ;
+}
+.client-details:hover{
+    background-color:#3561fe !important;
+    color: white !important;
+}
+/* .col-item:hover,.name .col-item,.details .col-item,.details-content .col-item{
  background-color:#3561fe ;
  color: white;
-}
+} */
 /* ***********section************ */
 .journey-items{
     /* border: 1px solid; */
@@ -780,7 +791,7 @@ footer{
 .footer-items>ul>li {
     list-style: none;
     line-height: 3.5;
-    font-size: 0.9rem;
+    font-size: 0.98rem;
     font-weight: 600;
     background-color: #fafafa;
 }
@@ -841,6 +852,15 @@ footer{
 #check{
     display: none;
 }
+.container .btn-hover:hover{
+    transform: scale(1.05);
+    background: #000;
+    box-shadow: 0px 0px 17px gray;
+}
+.container input:hover{
+    transform: scale(1.06);
+    box-shadow: 0px 0px 17px gray;
+}
 @media screen and (max-device-width: 640px) {
 
 .container{
@@ -859,17 +879,17 @@ footer{
     z-index: 1;
 }
 .harm li{
-    background: transparent;
     color: white;
     margin: 3%;
     font-size: 1.5rem;
-    line-height: 4;
+    text-align: center;
+    line-height: 3;
 }
 #check:checked ~ .harm{
-    background: #000000a6;
+    background: darkgrey;
     display: initial;
     left: 0;
-    margin-top: 14%;
+    margin: 14% 0%;
     width: 100%;
     /* transition: 2s; */
 }
@@ -907,8 +927,9 @@ footer{
 .journey-items>button ,.help-content>h1{
     margin: 0;
 }
-.brand-content input {
-    width: 74%;
+.brand-content input,.help-content>input {
+    width: 68%;
+    height: 45px;
 }
 .product-work>p,.product-img,.client-details{
     width: 100%;
@@ -954,7 +975,7 @@ footer{
     width: 19%;
 }
 .help-content>input{
-    margin-top: 6%;
+    margin: 6% auto;
 }
 .commitment-content .items {
     width: 42%;
@@ -983,6 +1004,14 @@ footer{
 }
 .company-info>img {
     height: auto;
+}
+.product-work {
+    text-align: center;
+}
+.container button{
+    height: 44px;
+    width: 87px;
+    font-size: 1rem;
 }
 }
 
