@@ -5,28 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .container {
-    /* width: 90vw; */
     margin: auto;
 }
-
 header {
-    /* border: 1px solid; */
     width: 90vw;
     margin: auto;
 }
-
 .nav-bar {
-    /* border: 1px solid; */
     display: flex;
     width: 16%;
 }
-
 .ul {
     width: 68%;
 }
-
 header nav .nav {
     display: flex;
 }
@@ -44,7 +36,6 @@ ul li{
     margin: 1.6rem 3%;
 }
 .logo span {
-    /* margin: 1%; */
     font-size: 1.9rem;
     font-weight: 600;
     letter-spacing: -3px;
@@ -52,12 +43,8 @@ ul li{
 }
 
 .logo {
-    /* display: block; */
-    /* padding: 1%; */
     margin: 18px 16px;
-    /* border: 1px solid;*/
 }
-
 button.btn {
     width: 7rem;
     height: 3.1rem;
@@ -68,39 +55,25 @@ button.btn {
     border-radius: 54px;
     font-size: 0.9rem;
 }
-
 .brand-details {
-    /* border: 1px solid; */
     display: flex;
-    /* margin-top: 7%; */
-    /* flex-wrap: wrap; */
     width: 90vw;
     margin: 7% auto;
 }
 
 .brand-details .brand-info {
-    /* border: 1px solid; */
-    /* height: 600px; */
     width: 50%;
 }
 
 .brand-info .brand-info-img {
-    /* border: 1px solid; */
-    /* height: 220px
-px
-; */
     width: 93%;
     display: flex;
     margin-left: 3%;
 
 }
-
 .brand-img {
-    /* border: 1px solid; */
     width: 50%;
-
 }
-
 .brand-img.brand-img-3 {
     border-radius: 190px;
     width: 41%;
@@ -108,18 +81,15 @@ px
     text-align: center;
     height: 183px;
 }
-
 .brand-info-1 {
     position: relative;
 }
-
 #img1 {
     height: 79px;
     background: #3461ff;
     border-radius: 190px;
     margin-top: 22%;
 }
-
 .brand-img.brand-img-4 {
     width: 61%;
     height: fit-content;
@@ -158,23 +128,18 @@ px
 .brand-img.brand-img-7 img {
     background: #f1f4ff;
 }
-
 .brand-img.brand-img-5 {
     width: 40%;
 }
-
 .brand-content {
-    /* border: 1px solid; */
     width: 75%;
     padding: 0% 2%;
 }
-
 .brand-content h1 {
     font-size: 5.9vw;
     line-height: 1.3;
     margin-top: 7%;
 }
-
 .brand-content p {
     margin-top: 9%;
     margin-bottom: 11%;
@@ -184,9 +149,7 @@ px
     text-align: justify;
     line-height: 1.8;
     width: 86%;
-
 }
-
 .brand-content input,.help-content>input {
     width: 66%;
     height: 59px;
@@ -197,7 +160,6 @@ px
     font-size: 0.9rem;
     color: gray;
 }
-
 .brand-content button {
     height: 3.5rem;
     width: 22%;
@@ -207,30 +169,24 @@ px
     border-radius: 28px;
     font-size: 0.9rem;
 }
-
 .brand-img.brand-img-1 {
     width: 70%;
 }
-
 .img-size {
     margin-top: -1%;
     height: 183px;
 }
-
 .brand-info-1 .emogi img {
-    /* border: 1px solid; */
     height: 470px;
     position: absolute;
     top: -7%;
     left: 27%;
     background: transparent;
 }
-
 img#hand {
     left: 33%;
     top: 23%;
 }
-
 img#smile {
     left: 49%;
     top: -37%;
@@ -240,7 +196,6 @@ img#smile {
 }
 /* **************section*************** */
 .companies {
-    /* border: 1px solid; */
     background-color: #fafafa;
     margin-top: -3%;
 }
@@ -250,27 +205,20 @@ img#smile {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 5%;
-    /* margin-top: 4%; */
-    /* margin-left: 3%; */
-    /* border: 1px solid; */
     background-color: #fafafa;
 }
-
 .company-img {
     width: 20%;
     text-align: center;
     margin: 3% 0%;
     background-color: #fafafa;
 }
-
 .companies-content {
     display: flex;
     width: 61%;
     margin: 5% 0% 3% 6%;
     background-color: #fafafa;
-    /* font-size: rem; */
 }
-
 .content h1,
 .commitment-content-items h1 {
     font-size: 2.6vw;
@@ -278,12 +226,10 @@ img#smile {
     background-color: transparent;
     margin-top: 12%;
 }
-
 .content {
     background-color: #fafafa;
     margin-top: 6%;
 }
-
 .companies-content .content .p1,
 .commitment-content .p1 {
     font-size: 0.95rem;
@@ -298,51 +244,41 @@ img#smile {
 
 /* ********section************ */
 .commitment-content {
-    /* border: 1px solid; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .commitment-content .items {
-    /* border: 1px solid; */
     width: 30%;
     margin: 2% 15% 11% 4%;
 }
-
 .h1 {
     font-size: 3.5rem;
-    /* text-align: center; */
     margin-bottom: -5%;
 }
-
 .commitment-content .p1 {
     width: 87%;
     background: transparent;
     margin-left: 4%;
     font-size: 1.01rem;
 }
-
 .commitment-content-items h1 {
     margin: 2% 4% -5%;
 }
-
 .commitment {
     margin-top: 8%;
 }
-
 .commitment-content-items a,.contect-items>a  {
     margin-left: 4%;
     font-weight: 700;
     color: #3461ff;
 }
-
 .commitment-content-items span,.contect-items>span  {
     color: #3461ff;
     font-size: 1.5rem;
     width: -15%;
 }
-
 .items>p {
     font-size: 0.9rem;
     width: 70%;
@@ -355,14 +291,12 @@ img#smile {
 /* **************section************** */
 .company-items {
     width: 50%;
-    /* border: 1px solid ; */
 }
 
 .company-info h1 {
     font-size: 2.9vw;
     margin: 11% 0% 3% 4%;
 }
-
 .company-info>p {
     font-size: 1.28vw;
     width: 76%;
@@ -375,7 +309,6 @@ img#smile {
 
 /* *********section************* */
 .box {
-    /* border: 1px solid; */
     width: 56%;
     height: 100px;
     border-radius: 26px;
@@ -383,42 +316,35 @@ img#smile {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 1% 1% -16%; */
 }
 
 .descri>h1 {
     font-size: 2.35vw;
     margin: 9% 1%;
 }
-
 .descri>p {
     width: 145%;
     margin-top: 14%;
     font-size: 1.12vw;
 }
-
 .company-info>img {
     width: 82%;
     margin-left: 4%;
     height: inherit;
 }
-
 .items.descri {
     margin-top: 10%;
     margin-left: 5%;
     margin-bottom: 1%;
 }
-
 /***************Section********************/
 .product {
-    /* border: 1px solid; */
     width: 90vw;
     margin: auto;
     margin: 11% auto;
 }
 
 .product-work {
-    /* border: 1px solid; */
     text-align: center;
 }
 
@@ -484,7 +410,6 @@ img#smile {
 }
 .contect-items>h1 {
     font-size: 2.34rem;
-    /* padding: 20%; */
     z-index: 1;
     width: 58%;
     margin: 9% 18% 19%;
@@ -496,7 +421,6 @@ img#smile {
     z-index: 2;
 }
 .contect-items>p {
-    /* padding: 10%; */
     font-size: 1.2vw;
     line-height: 1.6;
     width: 82%;
@@ -513,7 +437,6 @@ img#smile {
     display: flex;
     position: absolute;
     top: 0%;
-    /* z-index: 1; */
     width: 26%;
     left: -4%;
 }
@@ -529,14 +452,12 @@ img#smile {
 }
 /* ***********section*********** */
 .company-team{
-    /* border: 1px solid; */
     display: flex;
     width: 90vw;
     margin: auto;
     margin-top: 8%;
 }
 .company-content{
-    /* border: 1px solid; */
     width: 50%;
 }
 .company-tags{
@@ -579,7 +500,6 @@ img#smile {
     border: none;
 }
 .company-client{
-    /* border: 1px solid; */
     width: 90vw;
     margin: 11% auto;
     
@@ -589,11 +509,9 @@ img#smile {
 }
 /* ***********section*********** */
 .client-item{
-    /* border: 1px solid; */
     width: 50%; 
 }
 .client-content{
-    /* border: 1px solid; */
     display: flex;
 }
 .client-item>h1 {
@@ -614,7 +532,7 @@ img#smile {
     justify-content: center;
     align-items: center;
     background-color: #f5f8fe;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: gray;
     margin: 1% 1%;
 }
@@ -623,9 +541,7 @@ img#smile {
     color: white;
 }
 .client-details{
-    /* border: 1px solid; */
     width: 33%;
-    /* height: 100px; */
     margin: 1% 1% 1% 1%;
     line-height: 1.6;
     border-radius: 26px;
@@ -643,7 +559,6 @@ img#smile {
 .name>p{
     font-size: 1.1rem;
     background: transparent;
-    /* font-weight: 600; */
 }
 .name>h2,.details>img{
     background-color: transparent;
@@ -653,10 +568,8 @@ img#smile {
     background: transparent;
 }
 .details-content>p{
-    /* width: 98%; */
     font-size: 0.94rem;
     line-height: 1.7;
-    /* color: white; */
     background: #f5f8fe;
 }
 .client-details p{
@@ -666,13 +579,8 @@ img#smile {
     background-color:#3561fe !important;
     color: white !important;
 }
-/* .col-item:hover,.name .col-item,.details .col-item,.details-content .col-item{
- background-color:#3561fe ;
- color: white;
-} */
 /* ***********section************ */
 .journey-items{
-    /* border: 1px solid; */
     width: 50%;
     background: #211e37;
     border-radius: 57px;
@@ -718,7 +626,6 @@ img#smile {
     margin: 6% auto;
 }
 .help-assist-item {
-    /* margin: 3%; */
     border-top:1px solid #0000005e;
     padding: 6% 2%;
     display: flex;
@@ -735,11 +642,9 @@ img#smile {
     margin-top: -2%;
     font-size: 2.4rem;
     line-height: 2;
-    /* margin: -22% 12%; */
     margin-left: 16%;
 }
 .help-content>p{
-    /* font-size: 1.28vw; */
     font-size: 1.2rem;
     margin: 1% 16% 4%;
     line-height: 1.6;
@@ -773,19 +678,16 @@ img#smile {
     border-bottom:1px solid #0000005e;
 }
 footer{
-    /* border: 1px solid; */
     margin-top: -9%;
     background-color: #fafafa;
 }
 .footer{
-    /* border: 1px solid ; */
     display: flex;
     width: 90vw;
     margin: auto;
     background-color: #fafafa;
 }
 .footer-items {
-    /* border: 1px solid; */
     width: 25%;
     margin: 4% 2%;
     background-color: #fafafa;
@@ -825,7 +727,6 @@ footer{
 .footer-val {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid; */
     background-color: #313132;
 }
 .footer-content1 {
@@ -918,6 +819,9 @@ footer{
     width: 100%;
     /* transition: 2s; */
 }
+.brand-details.company-contect {
+    overflow: visible;
+}
 .emogi,.product-img-1,button.btn,.footer-content1{
     display: none;
 }
@@ -999,6 +903,9 @@ footer{
 .help-content>input{
     margin: 6% auto;
 }
+.client-arrow {
+    justify-content: center;
+  }
 .commitment-content .items {
     width: 42%;
     margin: 6% 3%;
@@ -1033,7 +940,7 @@ footer{
 .container button{
     height: 44px;
     width: 87px;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 }
 @-moz-document url-prefix() {
