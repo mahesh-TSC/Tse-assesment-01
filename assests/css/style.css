@@ -59,10 +59,10 @@ ul li{
 }
 
 button.btn {
-    width: 58%;
-    height: 3rem;
+    width: 7rem;
+    height: 3.1rem;
     background: #3461fe;
-    margin: auto;
+    margin: 8% auto;
     color: white;
     border: none;
     border-radius: 54px;
@@ -128,7 +128,9 @@ px
 .brand-img.brand-img-5 {
     width: 40%;
 }
-
+.image{
+    border-radius: 113px;
+}
 .brand-img.brand-img-6 {
     background: #e0ff22;
     border-radius: 184px;
@@ -279,6 +281,7 @@ img#smile {
 
 .content {
     background-color: #fafafa;
+    margin-top: 6%;
 }
 
 .companies-content .content .p1,
@@ -470,18 +473,17 @@ img#smile {
 }
 /* **********section*********** */
 .company-contect{
-    /* border: 1px solid; */
     width: 100%;
     margin-top: -8%;
     height: 269px;
-    /* background-image: linear-gradient(267deg, #3461ff 0%, #446cfb 20%, #5477f6 40%, #6383f2 60%, #738eed 80%); */
+    overflow: hidden;
 }
 .contect-items{
     background: #3561fe;
     position: relative;
 }
 .contect-items>h1 {
-    font-size: 2.3rem;
+    font-size: 2.34rem;
     /* padding: 20%; */
     z-index: 1;
     width: 58%;
@@ -507,19 +509,19 @@ img#smile {
     color: #ffffffcc;
     background-color: transparent;
 }
-.product-img-1{
+.product-img-1 {
     display: flex;
     position: absolute;
     top: 0%;
-    z-index: 1;
+    /* z-index: 1; */
     width: 26%;
+    left: -4%;
 }
-.product-img-1>img{
-    /* width: -webkit-fill-available; */
-    width: 149%;
+.product-img-1>img {
+    width: auto;
     background: #3561fe;
-    height: 266px;
-    
+    height: 297px;
+    margin-top: -8%;
 }
 .product-img-1 #path{
     transform: rotate(180deg);
@@ -701,7 +703,7 @@ img#smile {
 }
 .block {
     border: 1px solid;
-    width: 53%;
+    width: 19rem;
     height: 304px;
     display: flex;
     justify-content: center;
@@ -852,7 +854,15 @@ footer{
 #check{
     display: none;
 }
+.container a:hover{
+    color: darkblue;
+}
+.harm li:hover{
+    color: blue;
+    transform: scale(1.1);
+}
 .container .btn-hover:hover{
+    cursor: pointer;
     transform: scale(1.05);
     background: #000;
     box-shadow: 0px 0px 17px gray;
@@ -861,10 +871,21 @@ footer{
     transform: scale(1.06);
     box-shadow: 0px 0px 17px gray;
 }
+/* **********scroll bar****** */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 @media screen and (max-device-width: 640px) {
 
 .container{
-/* background-color: red; */
+/* background-color: red;  */
 }
 .harmberger{
     display: block;
@@ -877,6 +898,10 @@ footer{
     position: absolute;
     left: -100%;
     z-index: 1;
+}
+.harm li:hover{
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0.678);
 }
 .harm li{
     color: white;
@@ -943,9 +968,6 @@ footer{
     margin: 6% 0%;
     width: 100%;  
 }
-/* .brand-info.brand-info-1 {
-    margin-top: 11%;
-} */
 .nav-bar{
     width: 40%;
 }
@@ -1014,4 +1036,16 @@ footer{
     font-size: 1rem;
 }
 }
+@-moz-document url-prefix() {
+    .company-contect {
+        overflow: hidden;
+      }
+      .product-img-1 > img {
+        width: auto;
+        background: #3561fe;
+        height: 310px;
+        margin-top: -16%;
+      }
+  }
+
 
