@@ -24,6 +24,7 @@ header nav .nav {
 }
 ul li{
     font-family: system-ui;
+    cursor: pointer;
 }
 .nav-bar ul {
     display: flex;
@@ -39,9 +40,7 @@ ul li{
     font-size: 1.9rem;
     font-weight: 600;
     letter-spacing: -3px;
-    margin-left: -2%;
 }
-
 .logo {
     margin: 18px 16px;
 }
@@ -153,7 +152,7 @@ button.btn {
 .brand-content input,.help-content>input {
     width: 66%;
     height: 59px;
-    padding: 2%;
+    padding: 2% 4%;
     background: #efefef75;
     border: none;
     border-radius: 38px;
@@ -524,10 +523,10 @@ img#smile {
 }
 .arrow{
     /* border: 1px solid; */
-    width: 11%;
+    width: 4rem;
     text-align: center;
     border-radius: 31px;
-    height: 69px;
+    height: 62px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -772,6 +771,18 @@ footer{
     transform: scale(1.06);
     box-shadow: 0px 0px 17px gray;
 }
+.nav .logo{ 
+    animation-name: logo;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+    animation-direction: alternate-reverse;
+}
+@keyframes logo{
+    0% {transform: scale(1);}
+    100%{transform: scale(1.1);}
+    /* 100% {opacity: 1; transform: rotate(180deg);} */
+}
 /* **********scroll bar****** */
 .reveal{
     position: relative;
@@ -785,9 +796,6 @@ footer{
   }
 @media screen and (max-device-width: 640px) {
 
-.container{
-/* background-color: red;  */
-}
 .harmberger{
     display: block;
     position: relative;
@@ -810,14 +818,15 @@ footer{
     font-size: 1.5rem;
     text-align: center;
     line-height: 3;
+    cursor: pointer;
 }
 #check:checked ~ .harm{
     background: darkgrey;
     display: initial;
     left: 0;
+    transition: left 0.3s ease-in-out;
     margin: 14% 0%;
     width: 100%;
-    /* transition: 2s; */
 }
 .brand-details.company-contect {
     overflow: visible;
@@ -834,11 +843,12 @@ footer{
     border-radius: 88px;
 }
 .block{
-    width: 80%;
+    width: 88%;
 }
 .brand-details .brand-info,.brand-content,
 .companies-content ,.company-items ,
-.journey-items,.help-content>p,.company-content,.brand-info .brand-info-img {
+.journey-items,.help-content>p,.company-content,
+.brand-info .brand-info-img {
     margin: 0%;
     width: 100%;
     text-align: center;
@@ -868,14 +878,16 @@ footer{
     font-size: 2rem;
     text-align: center;
 }
-.contect-items>h1,.company-content #p,.brand-info.brand-info-1 {
+.contect-items>h1,.company-content #p,
+.brand-info.brand-info-1 {
     margin: 6% 0%;
     width: 100%;  
 }
 .nav-bar{
     width: 40%;
 }
-.companies-content .content .p1,.commitment-content .p1 ,.company-info>p,.company-info>img {
+.companies-content .content .p1,.commitment-content .p1 ,
+.company-info>p,.company-info>img {
     font-size: 1.01rem;
     width: 100%;
     margin: 6% 0%;
@@ -885,20 +897,22 @@ footer{
     width: 41%;
     text-align: center;
 }
-.items>p,.box,.company-content #p ,.contect-items>p ,.brand-content p ,.footer-content>p{
+.items>p,.box,.company-content #p ,.contect-items>p ,
+.brand-content p ,.footer-content>p{
     margin: 5% 0%;
     width: 100%;
     text-align: center;
     font-size: 1rem;
+}
+#story{
+    padding-left: 7%;
+    padding-right: 7%;
 }
 .product-work>button {
     width: 130px;
     height: 44px;
     font-size: 1.1rem;
     margin: 6% 28%;
-}
-.arrow {
-    width: 19%;
 }
 .help-content>input{
     margin: 6% auto;
