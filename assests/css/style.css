@@ -698,6 +698,9 @@ footer{
     font-weight: 600;
     background-color: #fafafa;
 }
+.footer-items>ul>li:hover{
+    color: blue;;
+}
 .footer-items>p {
     font-size: 0.9rem;
     line-height: 2.6;
