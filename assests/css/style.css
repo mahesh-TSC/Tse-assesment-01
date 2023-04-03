@@ -884,6 +884,8 @@ footer{
 .companies-content .content .p1{
     width: 85%;
     margin: auto;
+    font-size: 1rem;
+    text-align: center;
 }
 .contect-items>h1,.company-content #p,
 .brand-info.brand-info-1 {
@@ -893,7 +895,7 @@ footer{
 .nav-bar{
     width: 40%;
 }
-.companies-content .content .p1,.commitment-content .p1 ,
+.commitment-content .p1 ,
 .company-info>p,.company-info>img {
     font-size: 1rem;
     width: 100%;
@@ -955,7 +957,7 @@ footer{
 .company-info>img {
     height: auto;
 }
-.product-work {
+.product-work{
     text-align: center;
 }
 .container button{
